@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhodeep_polley</title>
+    <link
+      rel="shortcut icon"
+      href="Gold_Luxury_Initial_Circle_Logo-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  </head>
+
+  <body>
+    <div id="nav">
+      <img
+        src="Gold_Luxury_Initial_Circle_Logo-removebg-preview.png"
+        alt=""
+      />
+     
+      <ul class="Side-bar">
+        <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+        </svg></a></li>
+        <li><a href="#page1">Home</a></li>
+        <li><a href="#about">Abouts</a></li>
+        <li><a href="#page4">Services</a></li>
+        <li><a href="#cards-container">Portfolio</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        
+    </ul>
+    <ul class="menu">
+      <li class="hideOnMobile"><a href="#page1">Home</a></li>
+      <li class="hideOnMobile"><a href="#about">Abouts</a></li>
+      <li class="hideOnMobile"><a href="#page4">Services</a></li>
+      <li class="hideOnMobile"><a href="#cards-container">Portfolio</a></li>
+      <li class="hideOnMobile"><a href="#contacts">Contacts</a></li>
+      <li onclick="showSidebar()"><a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+      </a></li>
+  </ul>
+  
+    
+    
+    </div>
+    <!-- <div id="cursor"></div>
+    <div id="cursor-blur"></div> -->
+
+    <video
+      autoplay
+      loop
+      muted
+      src="pexels-mikhail-nilov-6962343 (1080p).mp4"
+    ></video>
+    <div id="main">
+      <div id="page1">
+        <h1>Hey! I AM SUBHODEEP POLLEY</h1>
+        <h2>Welcome To My Website!</h2>
+        <p>
+          I am a full stack web developer|Mechine learning enthucianst
+Python developer|Interested in java| Learning react Js|Love manage databases using SQL
+        </p>
+        <div id="arrow">
+          <i class="ri-arrow-down-line"></i>
+        </div>
+      </div>
+      <div id="page2">
+        <div id="scroller">
+          <div id="scroller-in">
+              
+            <img src="html-25319599.png" alt="img">
+            <img src="css-d2e9f9dd.png" alt="img">
+            <img src="js-30558d7e.png" alt="img">
+            <img src="java-714321be.png" alt="img">
+            <img src="github-891209b3.png" alt="img">
+            <img src="git-318550d6.png" alt="img">
+            <img src="Firebase-84baf7eb.png" alt="img">
+            <img src="nodejs-9c3d9739.png" alt="img">
+            <img src="canva-8f241bf9.png" alt="img">
+          </div>
+          <div id="scroller-in">
+              <img src="html-25319599.png" alt="img">
+              <img src="css-d2e9f9dd.png" alt="img">
+              <img src="js-30558d7e.png" alt="img">
+              <img src="java-714321be.png" alt="img">
+              <img src="github-891209b3.png" alt="img">
+              <img src="git-318550d6.png" alt="img">
+              <img src="Firebase-84baf7eb.png" alt="img">
+              <img src="nodejs-9c3d9739.png" alt="img">
+              <img src="canva-8f241bf9.png" alt="img">
+          
+      </div>  
+     </div>   
+        <div id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="about-col-1">
+                      <img src="image.jpg">
+                  </div>
+                  <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <p>I am Subhodeep Polley from West Bengal , India.I am a b.tech student of Computer Science and Technology of University of Engineering & Management,Kolkata.
+                          My hobbies are playing guiter,travel in unknown places and explore new things.
+                      </p>
+                      <div class="tab-titles">
+                          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                          <p class="tab-links active-link"onclick="opentab('experience')">Experience</p>
+                          <p class="tab-links active-link"onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                          <ul>
+                              <li><span>UI/UX</span><br>Designing For Web Apps</li>
+                              <li><span>Web Development</span> <br> Web App Development<br></li>
+                              <li><span>Machine Leaning</span> <br>Model Development<br></li>
+                          </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                          <ul>
+                              <li><span>ChatBot</span><br>Using ML</li>
+                              <li><span>Weither</span> <br> Web App <br></li>
+                              <li><span>AI Using</span> <br>Smart Door Lock<br></li>
+                          </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                          <ul>
+                              <li><span>2020</span><br>Higher Secondary Passout From Howrah Zilla Govt. School</li>
+                              <li><span>B.Tech</span> <br>Doing On Computer Science And Technology From University of Engineering And Management,Kolkata  <br></li>
+                             
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          
+        </div>
+        <div id="cards-container">
+          <div class="card" id="card1">
+            <div class="overlay">
+              <h4>Smart Weather App</h4>
+              <p>
+               Please check the weather of your city. Tap to Learn more.
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="overlay">
+              <h4>Deep Fake <br>Detection</h4>
+              <p>
+                Tap to Learn more about Deep Fake Detection.
+              </p>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="overlay">
+              <h4>Crop selection</h4>
+              <p>
+                The Project Dedicated to Farmers to help them in selecting the best crop for their land. Tap to Learn more.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="green-div">
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+          <h4>
+            NICE TO MEET YOU!
+          </h4>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page3">
+        <p>
+         Hi! I am Subhodeep a Full stack Web Developer and Machine Learning enthucianst. Langueages i knoew html,css,javascript,c,python,java and Mysql.
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+      </div>
+      <div id="page4">
+        <h1>MY INTERNSHIPS</h1>
+        <div class="elem">
+          <h2>BHARAT INTERN</h2>
+          <img
+            src="download.png"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>TECHNO HACKS</h2>
+          <img
+            src="1676715856930.jpg"
+            alt=""
+          />
+        </div>
+        <div class="elem">
+          <h2>CSRBOX & IBMSkillBuild</h2>
+          <img
+            src="maxresdefault.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="contacts"></div>
+      <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1>Contact Me</h1>
+                <p><i class="bi bi-envelope"></i>subhodeeppolley51@gmail.com</p>
+                <p><i class="bi bi-telephone"></i>918017195668</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/subhodeep.polley.393"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/subhodeep-polley-90941323a"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/Dpro2003"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/subhodeep.polley.393"><i class="bi bi-instagram"></i></a>
+                    
+                </div>
+                <br>
+                <a  href="Resume (2).pdf" download class="bt bt2">Download Cv</a>
+            </div>
+            <div class="contact_right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="bt bt2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright by Subhodeep. </p>
+        </div>
+      </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents =document.getElementsByClassName("tab-contents");
+  
+      function opentab(tabnames){
+          for (tablink of tablinks) {
+              tablink.classList.remove("active-link");
+          }
+          for (tabcontent of tabcontents) {
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabnames).classList.add("active-tab")
+      }
+  </script>
+  <script>
+    function showSidebar() {
+      const sidebar= document.querySelector('.Side-bar')
+      sidebar.style.display='flex'
+    }
+    function hidesidebar() {
+      const sidebar= document.querySelector('.Side-bar')
+      sidebar.style.display='none'
+    }
+
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzI7dGgIt8XV0yS97jWB4oZGdV4djvdg42AOEHYB6LUsygUOzVcl14oBPgQc7Epts3qMg/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    <script src="script.js"></script>
+  </body>
+</html>
